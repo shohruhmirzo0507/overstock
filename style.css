@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgb(214, 213, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+}
+.nav__img{
+    width: 15%;
+    height: 80%;
+}
+.text{
+    width: 60%;
+    height: 30px;
+margin-left: 30px;
+
+}
+.three{
+    font-size: 10px;
+}
+.main{
+    background: red;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 0px 0px 3px;
+}
+
+.collection{
+    font-size: 23px;
+    padding: 15px 0px 0px 30px;
+    margin-right: 20px;
+}
+
+.main1{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(205, 203, 203);
+  display: grid;
+  grid-template-columns:repeat(13, 1fr);
+padding: 0px 0px 0px 50px;
+position: relative;
+}
+.main1__ul{
+    display: flex;
+}
+
+.main1__li{
+    list-style: none;
+    margin:3px 0px 0px 40px;
+}
+.li1{
+    color: red;
+}
+
+.main1{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    overflow: auto;
+}
+.main1__ul{
+    min-width: 80px;
+    margin-right: 8px;
+    padding: 7px 82px;
+    border-radius: 6px;
+    border: none;
+    background: #fff;
+    color: black;
+}
+.main1__li:first-child{
+    background: #fff;
+    color: rgb(12, 12, 12);
+}
+
+
+
+
+
+
+
+
+
+
+.card3{
+    width:80%;
+    height: 470px;
+    background: url("./11282022-HP-A1-INTL-CW-1400x550_DSK-INTL-min.jpg") no-repeat center/cover;
+    border: none;
+   
+    margin: 0px auto;
+}
+
+.card1{
+    width: 100%;
+}
+.card2{
+    margin-left: 44%;
+}
+.more{
+    width: 80%;
+    height: 240px;
+  display: flex;
+    margin: 0px 0px 0px 150px;
+  flex-wrap: wrap;
+}
+
+.more1{
+    width: 15%;
+    height: 190px;
+   
+    margin-right: 20px;
+   font-size: 15px;
+    background: url("./11292022_CW_HB_INTL-CAN_1.svg") no-repeat center/cover;
+}
+.more2{
+    width: 15%;
+    height: 190px;
+ 
+    margin-right: 20px;
+    background: url("./11262022-CA-V2-HB_INTL-CAN_1.jpg") no-repeat center/cover;
+}
+
+.more2__card4{
+width: 100%;
+}
+
+.more__card4{
+    padding: 0px 0px 0px 20px;
+}
+
+.more3{
+    width: 15%;
+    height: 190px;
+   
+    margin-right: 20px;
+    background: url("./11262022-CA-V2-HB_INTL-CAN_5.jpg") no-repeat center/cover;
+}
+.more3__card4{
+    width: 100%;
+}
+.more4{
+    width: 15%;
+    height: 190px;
+   
+    margin-right: 20px;
+    background: url("./11262022-US-V2-HB_DOMESTIC_2\ \(1\).jpg") no-repeat center/cover;
+}
+.more5{
+    width: 15%;
+    height: 190px;
+   
+    margin-right: 20px;
+    background: url("./11262022-CA-V2-HB_INTL-CAN_6.jpg") no-repeat center/cover;
+}
+.more6{
+    width: 15%;
+    height: 190px;
+   
+    margin-right: 20px;
+    background: url("./11262022-CA-V2-HB_INTL-CAN_2.jpg") no-repeat center/cover;
+}
+
+.muth__brands{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 290px;
+    margin-left: 80px;
+}
+.muth__1{
+    width:80%;
+    height: 470px;
+    background: url(".//11282022-SB-Gifting-1400x550_Promo1.jpg") no-repeat center/cover;
+    border: none;
+   
+    margin: 0px auto; 
+}
+
+.muth__2{
+    width: 100%;
+}
+
+.card__1{
+    margin-left: 40%;
+}
+
+.card__2{
+   display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 500px;
+   
+    margin: 0px auto; 
+}
+.card__3{
+    width: 15%;
+    height: 220px;
+    
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./11192021-CatSilo-Furniture.png") no-repeat center/cover;
+}
+.card__4{
+    width: 15%;
+    height: 220px;
+  
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./11152021-CatSilo-AreaRugs.png") no-repeat center/cover;
+}
+.card__5{
+    width: 15%;
+    height: 220px;
+    
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./11152021-CatSilo-BedBath.png") no-repeat center/cover;
+}
+.card__6{
+    width: 15%;
+    height: 220px;
+   
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./11152021-CatSilo-Decor.png") no-repeat center/cover;
+}
+
+.card__7{
+    width: 15%;
+    height: 220px;
+   
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./CatSilo-Window-040721.jpg") no-repeat center/cover;
+}
+
+.card__8{
+    width: 15%;
+    height: 220px;
+   
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./11152021-CatSilo-Kitchen.png") no-repeat center/cover;
+}
+.card__9{
+    width: 15%;
+    height: 220px;
+    
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./11152022-CatSilo-Outdoor.png") no-repeat center/cover;
+}
+.card__10{
+    width: 15%;
+    height: 220px;
+   
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./01112021-CatSilo-HomeImp.jpg") no-repeat center/cover;
+}
+.card__11{
+    width: 15%;
+    height: 220px;
+    
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./11152021-CatSilo-Storage.png") no-repeat center/cover;
+}
+.card__12{
+    width: 15%;
+    height: 220px;
+   
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./01112021-CatSilo-Mattresses.jpg") no-repeat center/cover;
+}
+.card__13{
+    width: 15%;
+    height: 220px;
+   
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./11152021-CatSilo-Lighting.png") no-repeat center/cover;
+}
+.card__14{
+    width: 15%;
+    height: 220px;
+    
+    margin-right: 20px;
+    font-size: 15px;
+    background: url("./CatSilo-AllDeals-040721.jpg") no-repeat center/cover;
+}
+
+.card__f{
+    padding: 220px 0px 0px 50px;
+}
+
+
+
+.card__f2{
+    width: 80%;
+    height: 400px;
+   
+    margin: 0px auto;
+    display: flex;
+    overflow: auto;
+    
+}
+
+.card__f3{
+    width: 286px;
+    min-width: 286px;
+    height: 280px;
+    margin: 10px;
+    background: url("./10272022-MOPS-HP-Frame1.jpg") no-repeat center/cover;
+   
+}
+.card__f4{
+    width: 286px;
+    min-width: 286px;
+    height: 280px;
+    margin: 10px;
+    background: url("./10272022-MOPS-HP-Frame2.jpg") no-repeat center/cover;
+    
+}
+.card__f5{
+    width: 286px;
+    min-width: 286px;
+    height: 280px;
+    margin: 10px;
+    background: url("./10272022-MOPS-HP-Frame3.jpg") no-repeat center/cover;
+   
+}
+.card__f6{
+    width: 286px;
+    min-width: 286px;
+    height: 280px;
+    margin: 10px;
+    background: url("./10272022-MOPS-HP-Frame4.jpg") no-repeat center/cover;
+    
+}
+.card__f7{
+    width: 286px;
+    min-width: 286px;
+    height: 280px;
+    margin: 10px;
+    background: url("./10272022-MOPS-HP-Frame5.webp") no-repeat center/cover;
+   
+}
+.card__f8{
+    width: 286px;
+    min-width: 286px;
+    height: 280px;
+    margin: 10px;
+    background: url("./10272022-MOPS-HP-Frame6.webp") no-repeat center/cover;
+    
+}
+.card__f9{
+    width: 286px;
+    min-width: 286px;
+    height: 280px;
+    margin: 10px;
+    background: url("./10272022-MOPS-HP-Frame7.webp") no-repeat center/cover;
+  
+}
+.card__f10{
+    width: 286px;
+    min-width: 286px;
+    height: 280px;
+    margin: 10px;
+    background: url("./10272022-MOPS-HP-Frame8.webp") no-repeat center/cover;
+    
+}
+.card__g{
+    width: 286px;
+    height: 90px;
+    background: rgb(232, 231, 231);
+    margin: 280px 0px 0px 0px;
+}
+.card__g h2{
+    margin: 0px 0px 0px 20px;
+}
+.card__g p{
+    margin: 0px 0px 0px 20px;
+}
+
+.power{
+    width:80%;
+    height: 470px;
+    background: url("./11282022-SB-LivingRoomFurniture-1400x550_Promo2_INTL.jpg") no-repeat center/cover;
+    border: none;
+   
+    margin: 0px auto; 
+}
+
+.power__img{
+    width: 100%;
+}
+.power__1{
+    width:80%;
+    height: 300px;
+    background: url("./030822-RIUpdate-Dsk.jpg") no-repeat center/cover;
+    border: none;
+   
+    margin: 0px auto; 
+}
+.power__1__img{
+    width: 100%;
+}
+
+
+.card__po{
+    width: 80%;
+    height: 400px;
+   
+    margin: 0px auto;
+    display: flex;
+  
+    
+}
+
+.card__po1{
+    width: 286px;
+    min-width: 286px;
+    height: 280px;
+    margin: 10px;
+    background: url("./HP_C_Mod_33581952.webp") no-repeat center/cover;
+   
+}
+.card__po2{
+    width: 286px;
+    
+    height: 280px;
+    margin: 10px;
+    background: url("./HP_C_Mod_16543020.webp") no-repeat center/cover;
+   
+}
+.card__po3{
+    width: 286px;
+   
+    height: 280px;
+    margin: 10px;
+    background: url("./HP_C_Mod_30923284.webp") no-repeat center/cover;
+   
+}
+.card__po4{
+    width: 286px;
+    
+    height: 280px;
+    margin: 10px;
+    background: url("./HP_C_Mod_33639553.webp") no-repeat center/cover;
+   
+}
+
+
+.card__p{
+    width: 286px;
+    height: 90px;
+    background: rgb(232, 231, 231);
+    margin: 280px 0px 0px 0px;
+}
+.card__p h3{
+    margin: 0px 0px 0px 70px;
+}
+.card__p p{
+    margin: 0px 0px 0px 40px;
+}
+
+.div__1{
+    width: 80%;
+    height: 530px;
+   
+    margin: 0px auto;
+    display: flex;
+}
+.div__q{
+    width: 400px;
+    height: 400px;
+    background: url("./030822-SBS-Traditional.jpg") no-repeat center/cover;
+    margin-right: 10px;
+}
+.div__q2{
+    width: 400px;
+    height: 400px;
+    background: url("./030822-SBS-MidCenMod.jpg") no-repeat center/cover;
+    margin-right: 10px;
+}
+.div__q3{
+    width: 400px;
+    height: 400px;
+    background: url("./030822-SBS-Farmhouse.jpg") no-repeat center/cover;
+    margin-right: 10px;
+}
+.git{
+    width: 400px;
+    height: 110px;
+    background: rgb(217, 216, 216);
+    margin: 400px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+}
+.div__2{
+    width: 81%;
+    height: 230px;
+   
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pogba__1{
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(223, 220, 220);
+    margin-right: 5px;
+    background: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.h2__btn{
+    width: 160px;
+    height: 50px;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.818);
+    border: none;
+    color: #fff;
+border-radius: 5px;
+}
+
+.div__3{
+    width: 100%;
+    height: 350px;
+  background: rgba(0, 0, 0, 0.663);
+    margin: 0px auto;
+    display: flex;
+   
+}
+
+.div__4{
+    width: 100%;
+    height: 80px;
+ align-items: center;
+ justify-content: center;
+    margin: 0px auto;
+    display: flex;
+   background: rgba(0, 0, 0, 0.874);
+}
+
+.div__m{
+    width: 250px;
+    height: 300px;
+   
+  color: #fff;
+    margin: 40px 0px 0px 100px;
+}
+.div__b{
+    width: 420px;
+    height: 50px;
+   
+   margin-right: 270px;
+    color: #fff;
+}
+.div__n{
+    width: 550px;
+    height: 50px;
+    
+    margin: 0px 0px 0px 170px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:990px) {
+    
+  nav{
+    width: 700px;
+  }
+  .main1{
+display: none;
+  }
+ 
+ .muth__brands{
+    grid-template-columns: repeat(2, 1fr);
+ }
+}
+
+
+
+@media screen and (max-width:800px) {
+    
+  nav{
+    width: 600px;
+  }
+  .text{
+    display: none;
+   } 
+   .main{
+    display: none;
+   }
+   .main1{
+    display: none;
+      }
+      .muth__brands{
+        grid-template-columns: repeat(2, 1fr);
+     }
+}
+
+
+
+
+@media screen and (max-width:500px) {
+    
+nav{
+    width: 500px;
+}
+
+   .text{
+    display: none;
+   } 
+   .main{
+    display: none;
+   } 
+   .main1{
+    display: none;
+      } 
+      .muth__brands{
+        grid-template-columns: repeat(1, 1fr);
+     }
+}
+
+@media screen and (max-width:400px) {
+    .text{
+        display: none;
+       } 
+
+       .main{
+        display: none;
+       }
+       .main1{
+       display: none;
+          }
+          .muth__brands{
+            grid-template-columns: repeat(1, 1fr);
+         }
+}
+
+        
+        
